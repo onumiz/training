@@ -1,4 +1,4 @@
 Hello!
 This is a test message!
 
-Второй тест побочной ветки!
+Набор сообщения в VSC!
