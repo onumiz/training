@@ -1,101 +1,103 @@
 body, html { 
     height: 100%;
 }
+
 .container {
-    margin-left:20%;
-    margin-right:20%;
-
-
+    margin-left: 20%;
+    margin-right: 20%;
 }
-.hd{
+
+.hd {
     height: 145px;
     border: 1px solid;
-    background:lightgray;
+    background: lightgray;
 }
 
 .logo {
     width: 80px;
     height: 80px;
     background-color: white;
-    margin:10px;
-    float:left;
-    
+    margin: 10px;
+    float: left; 
 }
    
 .menu {
-    background:gray;
+    background: gray;
     margin-top: 46px;
 }
 
-button{
+button {
     text-align: center; 
     border: 0px;
-    color:white;
-    background:gray;
+    color: white;
+    background: gray;
 }
+
 .row {
     padding: 8px 10px; 
 }
-.row:hover{
-    color:black;
+
+.row:hover {
+    color: black;
     background: white;
 }
-.navigation{
-    width:300px;
-    background:lightgray;
+
+.navigation {
+    width: 300px;
+    background: lightgray;
     margin-top: 10px;
-    float:left; 
+    float: left; 
     min-height: 100%;      
 }
 
-
 .content {
-    margin-left:305px;
-    text-align:justify;
-    overflow:auto;
+    margin-left: 305px;
+    text-align: justify;
+    overflow: auto;
 }
 
-.block-buttons{
-    padding-top:10px;
-    text-align:center;
-       
+.block-buttons {
+    padding-top: 10px;
+    text-align: center;     
 }
 
-.nav{
-    padding:12px;
-    width:280px;
+.nav {
+    padding: 12px;
+    width: 280px;
 }
 
-.nav:hover{
-    color:black;
+.nav:hover {
+    color: black;
     background: white;
     text-decoration: underline;
 }
 
-footer{
-    background:gray;
+footer {
+    background: gray;
     height: 50px;
     position: fixed;
     left: 20%;
     bottom: 10px;
     width: 60%;
-       	}
+}
 
-h2, p, ul, li{
+h2, p, ul, li {
     font-family: Calibri, sans-serif;
 }
 
 h2 {
-    margin:10px 0px;   
+    margin: 10px 0px;   
 }
-p{  
+
+p {  
     margin:0px;
 }
 
-ul{
-   padding-left: 0px;
+ul {
+    padding-left: 0px;
 }
-li{
+
+li {
     padding-left:1.5em;
 }
 
