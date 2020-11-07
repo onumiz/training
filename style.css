@@ -1,14 +1,17 @@
+body, html { 
+    height: 100%;
+}
 .container {
     margin-left:20%;
     margin-right:20%;
+
 
 }
 .hd{
     height: 145px;
     border: 1px solid;
     background:lightgray;
-    max-width: auto;
-   }
+}
 
 .logo {
     width: 80px;
@@ -21,7 +24,7 @@
    
 .menu {
     background:gray;
-    margin-top: 35px;
+    margin-top: 46px;
 }
 
 button{
@@ -31,7 +34,7 @@ button{
     background:gray;
 }
 .row {
-    padding: 5px; 
+    padding: 8px 10px; 
 }
 .row:hover{
     color:black;
@@ -39,45 +42,61 @@ button{
 }
 .navigation{
     width:300px;
-    height: 100%;
     background:lightgray;
     margin-top: 10px;
     float:left; 
-  
-          
+    min-height: 100%;      
 }
+
+
 .content {
     margin-left:305px;
-    
-     }
+    text-align:justify;
+    overflow:auto;
+}
 
 .block-buttons{
     padding-top:10px;
     text-align:center;
-     
+       
 }
-.nav{
-    padding:10px;
-    width:280px;
-    height: auto;
 
+.nav{
+    padding:12px;
+    width:280px;
 }
 
 .nav:hover{
     color:black;
     background: white;
     text-decoration: underline;
-
 }
 
 footer{
-    /* position: absolute; */
     background:gray;
     height: 50px;
-    margin-top:50px;
-    /* overflow: visible; */
-    
+    position: fixed;
+    left: 20%;
+    bottom: 10px;
+    width: 60%;
+       	}
 
+h2, p, ul, li{
+    font-family: Calibri, sans-serif;
+}
+
+h2 {
+    margin:10px 0px;   
+}
+p{  
+    margin:0px;
+}
+
+ul{
+   padding-left: 0px;
+}
+li{
+    padding-left:1.5em;
 }
 
 
@@ -92,26 +111,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container:after, .row:after {
-    content: "";
-    display: table;
-    clear: both;
-
- */
 
 
 
